@@ -42,7 +42,7 @@ res.send(data)
 
 // After all other routes
 app.get('*', (req, res) => {
-  res.sendFile('dist/index.html');
+  res.sendFile('../dist/index.html');
 });
 
 
